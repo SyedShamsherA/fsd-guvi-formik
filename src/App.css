@@ -1,0 +1,23 @@
+h1{
+  margin-left: 35%;
+  position: static
+}
+
+.main-container{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container-product{
+  background-image: url('https://img.freepik.com/free-photo/portrait-cute-happy-girl-kissing-her-credit-card-after-buying-gifts-holding-shopping-bags-standin_1258-125577.jpg?w=1380&t=st=1705752669~exp=1705753269~hmac=ee6f7a1ac25ce68c59608c101340120206b3379d74f34674673a9a160fa2adf5');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container-cart{
+  background-image: url('https://img.freepik.com/free-photo/high-angle-view-multi-colored-shopping-bags-wooden-background_23-2147889048.jpg?w=996&t=st=1705751982~exp=1705752582~hmac=87132dcc108f9939cc33ec99a11e39307dd4e650f40d9f29b36a6b5bad927680');
+  background-size: cover;
+  padding: 20px;
+}
